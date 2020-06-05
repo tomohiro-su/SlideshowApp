@@ -61,7 +61,7 @@ class ViewController: UIViewController {
             imageView.image = img[mai]
             susumu.isEnabled = false
             modoru.isEnabled = false
-            saisei.setTitle("戻る", for:.normal )
+            saisei.setTitle("停止", for:.normal )
         }
             self.timer_sec += 1
         if (self.timer_sec == 60 ){
@@ -104,8 +104,6 @@ class ViewController: UIViewController {
         if self.timer == nil {
             self.timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateTimer(_:)), userInfo: nil, repeats: true)
         }
-
-
     }
     
         override func didReceiveMemoryWarning() {
@@ -115,7 +113,8 @@ class ViewController: UIViewController {
         
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
+        sai = 0
+        imageView.image = img[mai]
         print(imgArray[mai])
         let ZoomViewController:ZoomViewController = segue.destination as! ZoomViewController
         ZoomViewController.imgTo = imgArray[mai]
