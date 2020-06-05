@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C24D23C247EAE4200E40A9C /* IMG_2006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C24D23B247EAE4200E40A9C /* IMG_2006.jpg */; };
 		2CAA5FCD247DC4DD00BCEE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA5FCC247DC4DD00BCEE53 /* AppDelegate.swift */; };
 		2CAA5FCF247DC4DD00BCEE53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA5FCE247DC4DD00BCEE53 /* SceneDelegate.swift */; };
 		2CAA5FD1247DC4DD00BCEE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA5FD0247DC4DD00BCEE53 /* ViewController.swift */; };
 		2CAA5FD4247DC4DD00BCEE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAA5FD2247DC4DD00BCEE53 /* Main.storyboard */; };
 		2CAA5FD6247DC4DE00BCEE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAA5FD5247DC4DE00BCEE53 /* Assets.xcassets */; };
 		2CAA5FD9247DC4DE00BCEE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAA5FD7247DC4DE00BCEE53 /* LaunchScreen.storyboard */; };
+		2CD8259724817A1100C0945B /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD8259624817A1100C0945B /* ZoomViewController.swift */; };
+		2CEE0A49247FF3F000E36603 /* IMG_2007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CEE0A48247FF3F000E36603 /* IMG_2007.jpg */; };
+		2CEE0A4B247FF45900E36603 /* IMG_2008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CEE0A4A247FF45900E36603 /* IMG_2008.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C24D23B247EAE4200E40A9C /* IMG_2006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2006.jpg; sourceTree = "<group>"; };
 		2CAA5FC9247DC4DD00BCEE53 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAA5FCC247DC4DD00BCEE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CAA5FCE247DC4DD00BCEE53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		2CAA5FD5247DC4DE00BCEE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CAA5FD8247DC4DE00BCEE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CAA5FDA247DC4DE00BCEE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD8259624817A1100C0945B /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		2CEE0A48247FF3F000E36603 /* IMG_2007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2007.jpg; sourceTree = "<group>"; };
+		2CEE0A4A247FF45900E36603 /* IMG_2008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2008.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +67,12 @@
 				2CAA5FCC247DC4DD00BCEE53 /* AppDelegate.swift */,
 				2CAA5FCE247DC4DD00BCEE53 /* SceneDelegate.swift */,
 				2CAA5FD0247DC4DD00BCEE53 /* ViewController.swift */,
+				2CD8259624817A1100C0945B /* ZoomViewController.swift */,
+				2CEE0A48247FF3F000E36603 /* IMG_2007.jpg */,
+				2CEE0A4A247FF45900E36603 /* IMG_2008.jpg */,
 				2CAA5FD2247DC4DD00BCEE53 /* Main.storyboard */,
 				2CAA5FD5247DC4DE00BCEE53 /* Assets.xcassets */,
+				2C24D23B247EAE4200E40A9C /* IMG_2006.jpg */,
 				2CAA5FD7247DC4DE00BCEE53 /* LaunchScreen.storyboard */,
 				2CAA5FDA247DC4DE00BCEE53 /* Info.plist */,
 			);
@@ -125,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEE0A49247FF3F000E36603 /* IMG_2007.jpg in Resources */,
 				2CAA5FD9247DC4DE00BCEE53 /* LaunchScreen.storyboard in Resources */,
 				2CAA5FD6247DC4DE00BCEE53 /* Assets.xcassets in Resources */,
+				2CEE0A4B247FF45900E36603 /* IMG_2008.jpg in Resources */,
 				2CAA5FD4247DC4DD00BCEE53 /* Main.storyboard in Resources */,
+				2C24D23C247EAE4200E40A9C /* IMG_2006.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				2CAA5FD1247DC4DD00BCEE53 /* ViewController.swift in Sources */,
 				2CAA5FCD247DC4DD00BCEE53 /* AppDelegate.swift in Sources */,
 				2CAA5FCF247DC4DD00BCEE53 /* SceneDelegate.swift in Sources */,
+				2CD8259724817A1100C0945B /* ZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
